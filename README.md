@@ -1,6 +1,7 @@
 # Sistema de Gestão de Produtos e Pedidos
 
-Sistema backend desenvolvido em Node.js com PostgreSQL, seguindo arquitetura em camadas.
+Backend desenvolvido em Node.js para a disciplina Conexão de Banco de Dados com POO.
+O sistema implementa o fluxo de um delivery de restaurante, com foco principal no uso de triggers, functions e procedures no PostgreSQL para garantir integridade, automação de regras de negócio e processamento de pedidos.
 
 ## Tecnologias
 
@@ -76,11 +77,11 @@ npm run migrate
 
 ```json
 {
-  "categoria_id": 1,
-  "nome": "Produto Exemplo",
-  "descricao": "Descrição do produto",
-  "preco": 29.99,
-  "ativo": true
+    "categoria_id": 1,
+    "nome": "Produto Exemplo",
+    "descricao": "Descrição do produto",
+    "preco": 29.99,
+    "ativo": true
 }
 ```
 
@@ -96,16 +97,16 @@ npm run migrate
 
 ```json
 {
-  "itens": [
-    {
-      "produto_id": 1,
-      "quantidade": 2
-    },
-    {
-      "produto_id": 2,
-      "quantidade": 1
-    }
-  ]
+    "itens": [
+        {
+            "produto_id": 1,
+            "quantidade": 2
+        },
+        {
+            "produto_id": 2,
+            "quantidade": 1
+        }
+    ]
 }
 ```
 
