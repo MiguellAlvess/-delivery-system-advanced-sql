@@ -143,7 +143,6 @@ curl http://localhost:3000/pedidos
 Crie um arquivo `.env` na raiz do projeto:
 
 ```env
-NODE_ENV=development
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=postgres
